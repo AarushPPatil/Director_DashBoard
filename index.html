@@ -107,7 +107,7 @@
   const now = new Date();
   const h = now.getHours();
   const wish = h < 12 ? "Good Morning" : h < 17 ? "Good Afternoon" : "Good Evening";
-  document.getElementById("greet").textContent = wish + ", मॅडम";
+  document.getElementById("greet").textContent = wish + ",Madam";
   document.getElementById("today").textContent =
     now.toLocaleDateString("mr-IN",{weekday:"long",day:"numeric",month:"long",year:"numeric"});
 </script>
