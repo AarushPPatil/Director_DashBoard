@@ -93,7 +93,7 @@
   </a>
 </main>
 
-<!--<footer>कोणत्याही कार्डवर क्लिक केल्यास ती सिस्टीम नवीन टॅबमध्ये उघडेल.</footer>-->
+
 
 <script>
   // ====== फक्त या दोन लिंक बदला ======
@@ -106,7 +106,7 @@
 
   const now = new Date();
   const h = now.getHours();
-  const wish = h < 12 ? "सुप्रभात" : h < 17 ? "शुभ दुपार" : "शुभ संध्या";
+  const wish = h < 12 ? "Good Morning" : h < 17 ? "Good Afternoon" : "Good Evening";
   document.getElementById("greet").textContent = wish + ", मॅडम";
   document.getElementById("today").textContent =
     now.toLocaleDateString("mr-IN",{weekday:"long",day:"numeric",month:"long",year:"numeric"});
